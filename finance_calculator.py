@@ -25,10 +25,12 @@ bond \t\t - to calculate the amount you'll have to pay on a home loan \n''')
 # Line breaks was used after each question with "\n", so that the format will look better when user types an input
 if finances == "investment":
     amount = int(input("What is the amount you are depositing?:\n"))
-    percentage = int(input("What is the percentage you are investing at?:\n"))
+    percentage = float(input("What is the percentage you are investing at?:\n"))
     number_years = int(input("What is the number of years you are planning on investing for?:\n"))
     interest = input("Do you want simnple or compound interest?:\n")
     interest = interest.lower()
+
+
     # I did a while loop statement so that the user can only enter "simple" or "compound"
     # If none if these 2 string are entered it will display "Please enter 1 of the 2 given options" and repeat the question
     # The if statement is for "simple" and else is for "compound"
@@ -48,9 +50,11 @@ if finances == "investment":
 # Line breaks was used after each question with "\n", so that the format will look better when user types an input
 else:
     value = int(input("What is the present value of the house?:\n"))
-    percentage = int(input("What is the interest rate?:\n"))
+    percentage = float(input("What is the interest rate?:\n"))
     number_months = int(input("What is the amount of months you want to take to repay?:\n"))
+
     monthly_repayment = (percentage / 100 / 12 * value) / (1 - (1 + percentage) ** (- number_months))
+
     monthly_repayment = "{:.2f}".format(monthly_repayment)      # Formatted for Rand and cent
     print(f"Your monthly repayment wil be R {monthly_repayment}")
 
