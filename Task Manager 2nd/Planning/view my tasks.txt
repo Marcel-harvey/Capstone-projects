@@ -1,0 +1,11 @@
+Display all tasks in easy to read format
+Each task must have a value so that can be selected
+enter -1 to return to main menu
+if task chosen, choose mark complete or edit task
+if mark complete, change no value to yes
+if edit task, can edit user task is assigned to and due date
+task can only be edited id not comlete
+
+
+counter = 0
+add counter 1 to for loop

@@ -1,0 +1,6 @@
+The amount of tasks is:   5
+The amount of tasks that has being completed is:    3
+The amount of tasks that is incomplete is:  2
+The amount of tasks that are over due is: 2
+The percentage of tasks that are incomplete is:     40.0%
+The percentage of over due tasks is:    40.0%

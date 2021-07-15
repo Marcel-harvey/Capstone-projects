@@ -1,0 +1,19 @@
+The total users is:   3 and the total tasks is:   5
+admin
+    amount of tasks:                4
+    percentage of total tasks:      80.0%
+    percentage of completed tasks:  50.0%
+    percentage of incomplete tasks: 50.0%
+    percentage of tasks overdue:    50.0% 
+test
+    amount of tasks:                1
+    percentage of total tasks:      20.0%
+    percentage of completed tasks:  100.0%
+    percentage of incomplete tasks: 0.0%
+    percentage of tasks overdue:    0% 
+marcel
+    amount of tasks:                0
+    percentage of total tasks:      0.0%
+    percentage of completed tasks:  0%
+    percentage of incomplete tasks: 100%
+    percentage of tasks overdue:    0% 
