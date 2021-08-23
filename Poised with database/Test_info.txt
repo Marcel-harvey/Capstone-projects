@@ -1,0 +1,2 @@
+19972010, house thorpe, house, 20 gauteng, 1997, 45000.0, 10000.0, 06 jully 2022, no, mariska, 722533635, mariska@test.com, 20 krugersdorp, marcel, 714535989, marcel@test.com, 108 willoghby, alec, 722533635, alec@test, 10 kenmare
+201097, hotel friss, hotel, 45 north west, 2010, 70000.0, 10000.0, 20 august 2022, no, lettie, 88444555, lettie@test.com, 10 krugersdorp, warren, 829590347, warren@test.com, 108 willoughby, amelle, 824449727, amelle@test.com, 10 krugersdorp

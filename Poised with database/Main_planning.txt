@@ -1,0 +1,52 @@
+Main method
+Poise:
+
+Create dialog box:
+	Project
+	View projects
+	Finalise project
+	Quit
+
+if project
+	Create dialog box:
+		Capture new details
+		Edit a current project
+	
+	if capture new details:
+		Create dialog box to ask for:
+			Customer details
+			Contractor details
+			Architect details
+			Project details
+
+	if edit a current project:
+		Create dialog box:
+			Ask for project number as reference
+			Read all projects from text file
+
+			if inputted project number matches text file project number
+				Create dialog box:
+					Ask what want to edit
+					Due date
+					Total fee paid to date
+					Update person details (ask for persons name)(Only contact details)
+						
+
+
+if view projects
+	Create dialog box:
+		Projects thats needs to be completed
+		Project that are not completed and are over due
+		Search for specific project with project number or name as reference
+
+
+if finialize project
+	Ask for project number as reference
+	Read all projects from text file
+	check if customer owes anything
+		If owes amount:
+			generate invoice
+		else
+			dont generate anything
+		add completion date
+		add project information into text file 'Completed projects'

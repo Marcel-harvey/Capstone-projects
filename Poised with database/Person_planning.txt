@@ -1,0 +1,15 @@
+Person:
+
+Create person class:
+	private classes below	
+	name
+	number
+	email
+	address
+
+	Use setters to set values
+	
+
+
+Create a toString method to input in text file
+	Use getter to get al the values

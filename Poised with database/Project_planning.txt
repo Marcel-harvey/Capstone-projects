@@ -1,0 +1,19 @@
+Project:
+
+Create class for project:
+	Private below
+	projectNumber
+	projectName
+	buildingType
+	building address
+	erfNumber
+	totalCost
+	totalPaid
+	deadline
+
+	use setters tor set the values of variables
+
+Create toString method
+	use getters to get information of variables
+
+

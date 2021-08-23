@@ -1,0 +1,35 @@
+Create class for reading text file:
+	int project number
+	Strong project name
+	String building type
+	String building address
+	int ERF number
+	double total project cost
+	double total paid to date
+	String deadline
+	String project completed
+	String customer name
+	int customer number
+	String customer email
+	String customer address
+	String contractor name
+	int contractor number
+	String contracto email
+	String contractor address
+	String architect name
+	int architect number
+	String architect email
+	String architect address
+
+	while loop:
+		read line for line and split into variables above
+		
+		if view all tasks:
+			make toString method and display
+
+		if view past deadline:
+			make toString to show past deadline
+		
+		if view uncompleted projects:
+			make toString to display uncompleted projects
+	
